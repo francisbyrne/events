@@ -1,0 +1,14 @@
+2023-07-18T18:05:25.361Z  +1291ms [debug] Config loaded {"version":"2.22.1","cdkVersion":"2.84.0","constructsVersion":"10.1.156","config":{"name":"events","region":"us-east-1","stage":"benedictsmith","ssmPrefix":"/sst/events/benedictsmith/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":218,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1689703524350.mjs":{"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":146}},"bytes":328}}},"paths":{"config":"/Users/benedictsmith/Desktop/personal-projects/events/sst.config.ts","root":"/Users/benedictsmith/Desktop/personal-projects/events","out":"/Users/benedictsmith/Desktop/personal-projects/events/.sst","artifacts":"/Users/benedictsmith/Desktop/personal-projects/events/.sst/artifacts"}}
+2023-07-18T18:05:25.474Z   +113ms [debug] Using AWS profile 
+2023-07-18T18:05:25.495Z    +21ms [debug] Created AWS client IoTClient
+2023-07-18T18:05:25.495Z     +0ms [debug] Getting IoT endpoint
+2023-07-18T18:05:25.844Z   +349ms [debug] Using IoT endpoint: a29jg37stqleec-ats.iot.us-east-1.amazonaws.com
+2023-07-18T18:05:25.844Z     +0ms [debug] Initializing bootstrap context
+2023-07-18T18:05:25.846Z     +2ms [debug] Created AWS client CloudFormationClient
+2023-07-18T18:05:26.319Z   +473ms [debug] Loaded bootstrap status
+2023-07-18T18:05:26.319Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-11me3f9c62hk5"}
+2023-07-18T18:05:26.321Z     +2ms [debug] Created AWS client S3Client
+2023-07-18T18:05:26.363Z    +42ms [debug] Fetching all metadata
+2023-07-18T18:05:26.792Z   +429ms [debug] IoT connected
+2023-07-18T18:05:26.796Z     +4ms [debug] Fetched metadata from 0 stacks
+2023-07-18T18:05:26.798Z     +2ms [debug] Created AWS client SSMClient
